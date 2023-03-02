@@ -1,5 +1,8 @@
-boby{
+@import url('https://fonts.googleapis.com/css2? family=Noto+Sans:wght@400;700&display=swap');
+
+boby {
     margin: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 .main-login{
     width: 100vw;
@@ -34,5 +37,55 @@ boby{
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
 
+}
+.card-login > h1{
+    color: #00ff88;
+    font-weight:600;
+    margin: 0;
+}
+.textfield{
+  width: 100%;  
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: center;
+ margin: 10px 0px;
+ 
+}
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield > label {
+    color: #cfff;
+    margin-bottom: 10px;
+}
+.textfield > input ::placeholder {
+    color: #cfff;
+}
+.btn-login {
+    width: 100%;
+    pad: 10px 0px;
+    margin: 25px;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px 12px #00ff8052;
 }
