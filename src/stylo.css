@@ -3,16 +3,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 boby {
+    
     margin: 0;
     font-family: 'Noto Sans',sans-serif;
 }
-/*body * {
-    box-sizing: border-box;
-}*/
+strong{
+    color: #fbff40;
+}
+a{
+    text-align: left;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
 .main-login{
     width: 100vw;
     height: 100vh;
-    background: #162594;
+    background: #a6cddf;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,15 +35,15 @@ boby {
 }
 .left-login > h1 {
     font-size: 3vw;
-    color: #fbff40;
+    color: #060668;
     
 }
 .left-login > h2 {
     font-size: 2vw;
-    color: #0a0a31 ;
+    color: #040454 ;
 }
 .image-login{
-    width: 30vw;
+    width: 28vw;
 }
 .right-login{
     width: 50vw;
@@ -45,15 +53,15 @@ boby {
     align-items: center;
 }
 .card-login{
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #1c0558;
+    background: #274670;
     border-radius: 20px;
-    box-shadow: 0px 10px 40px #cced1352;
+    box-shadow: 0px 10px 40px #094aecef;
 
 }
 .card-login > h1{
@@ -62,7 +70,7 @@ boby {
     margin: 0;
 }
 .textfield{
-  width: 100%;  
+ width: 100%;  
  display: flex;
  flex-direction: column;
  align-items: flex-start;
@@ -101,10 +109,39 @@ boby {
     color: #2b134b;
     background: #fbff40;
     cursor: pointer;
-    box-shadow: 0px 10px 40px 12px #cced1352;
+    box-shadow: 0px 10px 40px 12px #c8ee0a52;
 }
 
-/*@media only screen and (max-width: 950px) {
+.options-login {
+    font-size: 16px;
+    color: #fff;
+    line-height: 16px;
+}
+
+.options-login input[type="checkbox"] {
+    margin-right: 8px;
+    width: 17px;
+    height: 17px;
+    border: 0;
+    border-radius: 6px;
+    font-size: 20px;
+
+}
+small{
+    
+    
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 900;
+    
+
+}
+/*boby *{
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 950px) {
     .card-login{
         width: 85%;
     }
